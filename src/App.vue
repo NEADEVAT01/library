@@ -12,15 +12,8 @@
         </li>
         <li class="nav-item">
           <router-link to="/favorites" class="nav-link active">Избранное</router-link>
-        </li> 
-        <li class="nav-item">
-          <router-link to="/search" class="nav-link active">Поиск</router-link>
-        </li>        
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Поиск по названию" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Поиск</button>
-      </form>
+        </li>       
+      </ul>      
     </div>
   </div>
 </nav>

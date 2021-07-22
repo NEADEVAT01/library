@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Favorites from '../views/Favorites.vue'
-import Search from '../views/Search.vue'
 
 const routes = [
   {
@@ -13,12 +12,7 @@ const routes = [
     path: '/favorites',
     name: 'favorites',
     component: Favorites
-  }, 
-  {
-    path: '/search',
-    name: 'fsearchs',
-    component: Search
-  }, 
+  }
 ]
 
 const router = createRouter({
